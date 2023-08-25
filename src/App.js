@@ -277,8 +277,8 @@ class App extends Component {
       eachValue=>eachValue.thumbnailUrl===thumbnailUrl,
 
     )
-    const {imageUrl}=imageValue[0]
-    if (imageUrl===imageUrl){
+    const clickedImageUrl=imageValue[0].imageUrl;
+    if (clickedImageUrl===imageUrl){
       const newImgUrl= 
         imagesList[math.floor(Math.random()*imagesList.length)].imageUrl 
       console.log(newImgUrl) 
